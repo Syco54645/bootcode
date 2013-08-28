@@ -1,0 +1,58 @@
+.subhead {
+	text-align: left;
+	border-bottom: 1px solid #DDD;
+}
+.jumbotron {
+	position: relative;
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+	background: #020031;
+	background: -moz-linear-gradient(45deg, #020031 0%, #6D3353 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6D3353));
+	background: -webkit-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+	background: -o-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+	background: -ms-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+	background: linear-gradient(45deg, #020031 0%,#6D3353 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+	-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+.jumbotron::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: .4;
+}
+
+#categories label{
+	display: inline;
+	margin-right:20px;
+}
+
+#categories input[type="checkbox"]{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.ui-title,
+.ui-icon-plusthick,
+.ui-icon-minusthick{
+	cursor:pointer;
+}
+
+.portlet-header{
+	cursor: move;
+}
+
+#post-stats{
+	width:20% !important;
+	float:right !important;
+}

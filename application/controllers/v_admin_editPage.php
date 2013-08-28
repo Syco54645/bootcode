@@ -1,0 +1,1 @@
+<textarea class="ckeditor" name="editor1"></textarea>
